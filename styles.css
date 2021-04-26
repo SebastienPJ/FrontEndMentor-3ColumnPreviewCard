@@ -1,0 +1,131 @@
+img {
+    width: 25%
+}
+
+p { 
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 0 20% 0;
+    line-height: 2;
+    margin-right: 28%;
+
+}
+
+.options-available {
+    margin: 10% 20% 0;
+
+}
+
+.card {
+    padding: 5% 0 5% 5%;
+
+}
+
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 95%);
+    padding: 10% 0 5% 0;
+}
+
+
+
+.sedan-card {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0 0 2%;
+   
+}
+
+
+.suv-card {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+
+}
+   
+
+
+.luxury-card {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+    
+    
+}
+
+
+button {
+    mix-blend-mode: screen;
+    border-radius: 25px;
+}
+
+
+
+
+.card-button {
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 45px;
+    background-color:  hsl(0, 0%, 95%);
+    padding: 20px;
+    width: 60%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-button:hover {
+
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-width: 1px;
+}
+
+
+
+
+.attribution {
+    margin-bottom: 10%;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+    p {
+        padding: 0 0 10% 0;
+       
+    }
+
+    .sedan-card {
+        border-radius: 2% 2% 0 0;
+    }
+
+    .suv-card {
+        border-radius: 0;
+    }
+
+    .luxury-card {
+        border-radius: 0 0 2% 2%;
+    }
+
+    .card {
+        padding: 10% 0 15% 5%;
+    }
+
+   
+
+    .options-available {
+        margin: 10% 25% 0;
+    }
+
+
+}
